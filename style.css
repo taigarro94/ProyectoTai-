@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background: url(img/ropa2.jpg);
+    background-size: cover;
+    background-position: center center;
+  }  
+
+
+.carruselIntro {
+    padding: 5px;
+    margin: 5px;
+}
+
+.contenidoIndex {
+    background: radial-gradient(rgb(33, 120, 126), rgb(87, 87, 187));
+    flex: flex;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+  } 
+
+#formularioDeContacto {
+    background: radial-gradient(rgb(33, 120, 126), rgb(87, 87, 187));
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+  }
+
+#pieDePagina {
+    border-top: solid 1px black;
+}
