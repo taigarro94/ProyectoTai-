@@ -21,6 +21,8 @@ body {
     padding: 10px;
     margin: 10px;
     border: solid 1px black;
+    animation-name: mianimacion;
+    animation-duration: 10s;
   } 
 
 @keyframes mianimacion {
