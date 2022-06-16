@@ -23,13 +23,25 @@ body {
     border: solid 1px black;
   } 
 
+@keyframes mianimacion {
+    0% {transform:scale(1);}
+    50% {transform:scale(0.85);}
+    100% {transform:scale(0.5);}
+  }
+
 #formularioDeContacto {
     background: radial-gradient(rgb(33, 120, 126), rgb(87, 87, 187));
     padding: 10px;
     margin: 10px;
     border: solid 1px black;
+    animation-name: mianimacion;
+    animation-duration: 10s;
   }
 
 #pieDePagina {
+    margin-top: 50px;
     border-top: solid 1px black;
 }
+
+
+
