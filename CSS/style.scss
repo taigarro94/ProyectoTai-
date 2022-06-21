@@ -1,22 +1,25 @@
+@import "colores";
+
 * {
     margin: 0;
     padding: 0;
   }
 
 body {
-    background: url(img/ropa2.jpg);
+    background: url(../img/ropa2.jpg);
     background-size: cover;
     background-position: center center;
-  }  
+  }
+    
+.paginaIndex {
 
-
-.carruselIntro {
+  .carruselIntro {
     padding: 5px;
     margin: 5px;
-}
+  }
 
-.contenidoIndex {
-    background: radial-gradient(rgb(33, 120, 126), rgb(87, 87, 187));
+  .contenidoIndex {
+    background: $colorFondoIndex;
     flex: flex;
     padding: 10px;
     margin: 10px;
@@ -24,6 +27,7 @@ body {
     animation-name: mianimacion;
     animation-duration: 10s;
   } 
+} 
 
 @keyframes mianimacion {
     0% {transform:scale(1);}
@@ -32,7 +36,7 @@ body {
   }
 
 #formularioDeContacto {
-    background: radial-gradient(rgb(33, 120, 126), rgb(87, 87, 187));
+    background: $colorFondoIndex;
     padding: 10px;
     margin: 10px;
     border: solid 1px black;
@@ -45,5 +49,9 @@ body {
     border-top: solid 1px black;
 }
 
-
+@media (max-width: 480px) {
+  .mensajeFormulario{
+    width: 100%;
+  }
+} 
 

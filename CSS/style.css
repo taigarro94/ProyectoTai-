@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../img/ropa2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.paginaIndex .carruselIntro {
+  padding: 5px;
+  margin: 5px;
+}
+
+.paginaIndex .contenidoIndex {
+  background: lightblue;
+  -webkit-box-flex: flex;
+      -ms-flex: flex;
+          flex: flex;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px black;
+  -webkit-animation-name: mianimacion;
+          animation-name: mianimacion;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+@-webkit-keyframes mianimacion {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes mianimacion {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+#formularioDeContacto {
+  background: lightblue;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px black;
+  -webkit-animation-name: mianimacion;
+          animation-name: mianimacion;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+#pieDePagina {
+  margin-top: 50px;
+  border-top: solid 1px black;
+}
+
+@media (max-width: 480px) {
+  .mensajeFormulario {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
