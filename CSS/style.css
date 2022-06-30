@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* Map */
 * {
   margin: 0;
   padding: 0;
@@ -9,13 +11,14 @@ body {
   background-position: center center;
 }
 
+/* Anidación */
 .paginaIndex .carruselIntro {
   padding: 5px;
   margin: 5px;
 }
 
-.paginaIndex .contenidoIndex {
-  background: lightblue;
+.paginaIndex .contenidoIndex1, .paginaIndex .contenidoIndex2 {
+  background: beige;
   -webkit-box-flex: flex;
       -ms-flex: flex;
           flex: flex;
@@ -28,6 +31,12 @@ body {
           animation-duration: 10s;
 }
 
+/* Aplicando Extend */
+.contenidoIndex2 {
+  font-size: small;
+}
+
+/* Mixins */
 @-webkit-keyframes mianimacion {
   0% {
     -webkit-transform: scale(1);
@@ -42,7 +51,6 @@ body {
             transform: scale(0.5);
   }
 }
-
 @keyframes mianimacion {
   0% {
     -webkit-transform: scale(1);
@@ -59,7 +67,7 @@ body {
 }
 
 #formularioDeContacto {
-  background: lightblue;
+  background: rgba(255, 246, 232, 0.979);
   padding: 10px;
   margin: 10px;
   border: solid 1px black;
@@ -70,6 +78,7 @@ body {
 }
 
 #pieDePagina {
+  background: rgba(217, 251, 255, 0.712);
   margin-top: 50px;
   border-top: solid 1px black;
 }
