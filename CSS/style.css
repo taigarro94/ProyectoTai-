@@ -79,6 +79,7 @@ body {
 
 #pieDePagina {
   background: rgba(217, 251, 255, 0.712);
+  margin: 10px;
   margin-top: 50px;
   border-top: solid 1px black;
 }
